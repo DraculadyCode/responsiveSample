@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="Kathrin Peled" />
+    <title>Roses</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Style the Footer only -->
+    <style>
+      footer {
+        background-color: #a009f7;
+        color: white;
+        font-size: 1.5rem;
+        font-family: cursive;
+        text-align: center;
+        padding: 0.5rem;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        border-top: 0.5rem outset rgb(55, 173, 252);
+      }
+      footer p {
+        width: 100%;
+      }
+      footer a {
+        color: white;
+        text-decoration: none;
+      }
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <section id="redrose">
+        <h1>Roses are Red #FF0000</h1>
+        <picture>
+          <source srcset="./images/image-02.webp" type="image/jpg" />
+          <img src="./images/image-02.webp" alt="Red Rose" />
+        </picture>
+      </section>
+      <section id="violetrose">
+        <h1>Violets are blue #0000FF</h1>
+        <picture>
+          <source srcset="./images/image-03.webp" type="image/jpg" />
+          <img src="./images/image-03.webp" alt="Violet Rose" />
+        </picture>
+      </section>
+      <section id="pinkrose">
+        <h1>"all my base, are belong to you"</h1>
+        <picture>
+          <source srcset="./images/image-01.webp" type="image/jpg" />
+          <img src="./images/image-01.webp" alt="Pink Rose" />
+        </picture>
+      </section>
+    </main>
+    <footer>
+      <p>
+        Created by
+        <span
+          ><a
+            href="https://draculady.de/"
+            target="_blank"
+            title="Visit Draculady's website"
+            ><b>Kathrin Peled - Draculady</b></a
+          >©</span
+        >
+      </p>
+    </footer>
+  </body>
+</html>
